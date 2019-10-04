@@ -78,8 +78,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .headerImg{
+    display: flex;
+    justify-content: flex-start;
     margin: 10px;
-    padding: 10px;
+    padding: 10px;  
 
 }
 p {
@@ -163,4 +165,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+.headerAbout{
+    margin: 10px;
+    padding: 10px;  
+}
+.about{
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+}
+.topSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed; 
+}
+.bottomSection{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed;
+}
+button{
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px;
+}
+
+.together{
+    padding: 10px;
+    margin: 10px;
 }
